@@ -45,7 +45,7 @@ class Homeswitch extends Component {
     ); 
   }
 }
-export const customnavigator = (props) => ( 
+ const customnavigator = (props) => ( 
     
    
 
@@ -73,7 +73,7 @@ const AppStack = createDrawerNavigator({
 
 },{
 
-    contentComponent : <customnavigator />
+    contentComponent : customnavigator
 }
 
 );
