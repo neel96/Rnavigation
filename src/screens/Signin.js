@@ -14,7 +14,7 @@ export default class Signin extends Component {
   render() {
     return (
       <View style ={{flex : 1}}> 
-      <Text> Sign In </Text> 
+      <Text> Sign In 1 </Text> 
       <Button title = 'SIGN UP' onPress = {() => this.props.navigation.navigate('Signup')} />
       </View>
     );
